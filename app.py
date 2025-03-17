@@ -96,4 +96,4 @@ uploaded_image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"]
 if uploaded_image is not None:
     detect_faces_in_image(uploaded_image)
 
-st.markdown("Project [Source Code](https://duckduckgo.com)")
+st.markdown("Project [Source Code](https://github.com/gitbykaran/Face-Detection-OpenCV)")
